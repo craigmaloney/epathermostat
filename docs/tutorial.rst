@@ -97,6 +97,23 @@ and set a directory for finding and storing data.
 
         $ conda list
 
+Installation (Development)
+--------------------------
+
+If you would like to develop on this package you'll need to do the following:
+
+.. code-block:: bash
+
+    # If using Virtualenv:
+    $ workon thermostat
+    (thermostat)$ pip install -e .
+    (thermostat)$ pip install -r dev-requirements.txt
+
+    # If using Conda:
+    $ source activate thermostat
+    (thermostat)$ pip install -e .
+    (thermostat)$ pip install -r dev-requirements.txt
+
 Script setup and imports
 ------------------------
 
